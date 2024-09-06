@@ -1,8 +1,8 @@
 module MetJl
-
+using Unitful
 """
     hi = hello_world()
-A simple function to return "Hello, World!"
+    A simple function to return "Hello, World!"
 """
 function hello_world()
     return "Hello, World!"
